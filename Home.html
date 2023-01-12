@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title itemprop="name">COLOURFUL*WORLD</title>
+    <meta name="keywords"
+        content="調酒酒吧cocktailcolorfulCOLOURFUL*WORLD">
+    <meta name="description"
+        content="停留的朋友們感受到不同於其他酒吧的細膩特質，從裝潢、家具、擺設、點綴、餐具、服務…等所能看得見的，吃得到的，摸得到的盡在COLOURFUL*WORLD">
+    <link href="CSS/HomeStyle.css" rel="stylesheet">
+    <link href="CSS/Blobs.css" rel="stylesheet">
+    <script src="JS/picturefill.js"></script>
+    <script src="JS/canvas.js"></script>
+
+
+</head>
+<header>
+    <div class="header-position">
+        <div class="header-wrapper">
+            <div class="header-links-Left">
+                <a target="" href="#" class="header-links">門市據點</a>
+                <a target="" href="#" class="header-links">茶飲介紹</a>
+                <a target="" href="#" class="header-links">品牌作品</a>
+            </div>
+            <a target="" href="#" class="header-logo">
+                <picture class="header-logo">
+                    <source srcset="images/logo.png" media="(min-width:1199px)">
+                    <source srcset="images/logo-m.png" media="(min-width:768px) and (max-width:1199px)">
+                    <img srcset="images/logo-m.png" alt="default">
+                </picture>
+            </a>
+            <div class="header-links-Right">
+                <a target="" href="#" class="header-links">線上購物</a>
+                <a target="" href="#" class="header-links">加盟我們</a>
+                <a target="" href="#" class="header-links">最新消息</a>
+                <ul class="lang-switcher">
+                    <a><li class="lang-switcher-li">
+                        <div>EN</div>
+                        <div>
+                        <img src ="images/globe.svg" class="icon color-c" style="margin-top: 8px;">
+                    </div></li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-menu">
+        <input id="toggle" type="checkbox"></input>
+        
+        <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </label>
+        <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                  </a>
+                    <a href="#"> 門市據點</a>
+                    <a href="#">茶飲介紹</a>
+                    <a href="#">品牌作品</a>
+                    <a href="#">線上購物</a>
+                    <a href="#">加盟我們</a>
+                    <a href="#">最新消息</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <section class="Home_Banner">
+        <h1 class="banner_title">Wellcome to the<br> COLOURFUL WORLD.</h1>
+        <div class="ball">
+            <div class="noise"></div>
+            <canvas id="gradient" width="32" height="32">
+        </div>
+        <div class="blobs">
+            <div class="big-blob2"></div>
+            <div class="big-blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+          </div>
+    </section>
+
+    <section>
+        <ul class="Home_Products">
+            <!-- <div class="page-index_products-bg"></div> -->
+            <li class="products-item item-bk-blue">
+                <div class="products-backcover">
+                    <div class="products-backcover-heading">
+                        <p class="title-backcover font-R">GUIDE</p>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p></a>
+                        </div>
+                    </div>
+                <div class="products-backcover-date">
+                    <p class="date-backcover">UPDATE : 2022.10.09</p>
+                </div>
+                <div class="products-backcover-num">
+                    <p class="num-p">NUMBER</p>
+                    <p class="num-p">1</p>
+                </div>
+            </div>
+                <div class="products-front">
+                    <div class="front-title"><a><h3>藍色夏威夷—協奏曲</h3>
+                        <h3 class="front-E"> Blue Hawaii</h3>
+                        <p>微醺的季節、夏日的回憶，轉瞬即逝</p></div></a>
+                    <div class="front-img-1">
+                        <a><img src="images/cocktail-colorful.jpg" class="img-1"></a>
+                    </div>
+                </div>
+            </li>
+            <li class="products-item item-bk-red">
+                <div class="products-backcover">
+                    <div class="products-backcover-heading">
+                        <p class="title-backcover font-R">GUIDE</p>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">紅葉</p>
+                                <p class="info-E">Autumn</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="products-backcover-date">
+                        <p class="date-backcover">UPDATE : 2022.10.09</p>
+                    </div>
+                    <div class="products-backcover-num">
+                        <p class="num-p">NUMBER</p>
+                        <p class="num-p">2</p>
+                    </div>
+                </div>
+                <div class="products-front">
+                    <div class="front-title">
+                        <a>
+                        <h3>紅葉</h3>
+                        <h3 class="front-E"> Autumn</h3></a>
+                    </div>
+                    <div class="front-img-2">
+                        <a><img src="images/Red-Cocktail.jpg" class="img-2"></a>
+                    </div>
+                </div>
+            </li>
+            <li class="products-item item-bk-green">
+                <div class="products-backcover">
+                    <div class="products-backcover-heading">
+                        <p class="title-backcover font-R">GUIDE</p>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">照葉林</p>
+                                <p class="info-E">laurilignosa</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="products-backcover-date">
+                        <p class="date-backcover">UPDATE : 2022.10.09</p>
+                    </div>
+                    <div class="products-backcover-num">
+                        <p class="num-p">NUMBER</p>
+                        <p class="num-p">3</p>
+                    </div>
+                </div>
+                <div class="products-front">
+                    <div class="front-title">
+                        <a>
+                        <h3>照葉林</h3>
+                        <h3 class="front-E"> laurilignosa</h3>
+                    </a>
+                    </div>
+                    <div class="front-img-3">
+                        <a><img src="images/Green-Cocktail.jpg"class="img-3"></a>
+                    </div>
+                </div>
+            </li>
+            <li class="products-item item-bk-orange">
+                <div class="products-backcover">
+                    <div class="products-backcover-heading">
+                        <p class="title-backcover font-R">GUIDE</p>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">日出</p>
+                                <p class="info-E font-R">Sunrise</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="products-backcover-date">
+                        <p class="date-backcover">UPDATE : 2022.10.09</p>
+                    </div>
+                    <div class="products-backcover-num font-R">
+                        <p class="num-p">NUMBER</p>
+                        <p class="num-p">4</p>
+                    </div>
+                </div>
+                <div class="products-front">
+                    <div class="front-title">
+                        <a>
+                        <h3>日出</h3>
+                        <h3 class="front-E"> Sunrise</h3>
+                        <p>當接近太陽升起時</p>
+                        </a>
+                    </div>
+                    
+                    <div class="front-img-4">
+                        <a><img src="images/Orange_Cocktail.jpg" class="img-4"></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="Home_Related">
+        <div class="bk_filter"></div>
+        <h1 class="bk_title-1">Wellcome to the<br> COLOURFUL WORLD.</h1>
+        <h1 class="bk_title-2">Wellcome to the<br> COLOURFUL WORLD.</h1>
+
+        <div class="page-index_related_bk"></div>
+        <div class="wrapper">
+        <ul class="items">
+            <li class="item-1">
+                <div class="item-1-num">01</div>
+                <div class="item-continer">
+                    <div class="item-title">
+                        <div class="item-title-e"><p>another story</p></div>
+                        <div class="item-title-c"><p>調酒的另一種面向</p></div></div>
+                    <button class="custom-btn btn-pink item-btn-p">線上酒館</button>
+                <div class="item-img-box">
+                    <div class="item-img-overlay"></div>
+                    <img src="images/Brand1.jpg" class="item-img"></div>
+                </div>
+                </li>
+            <li class="item-2">
+                <div class="item-2-num">02</div>
+                <div class="item-continer">
+                    <div class="item-title-2">
+                        <div class="item-title-e"><p>another story</p></div>
+                        <div class="item-title-c"><p>調酒的另一種面向</p></div></div>
+                    <button class="custom-btn btn-pink item-btn-p">線上酒館</button>
+                <div class="item-img-box">
+                    <div class="item-2-img-overlay"></div>
+                    <img src="images/Brand2.jpg" class="item-img">
+                </div>
+            </li>
+            <li class="item-1">
+                <div class="item-1-num">03</div>
+                <div class="item-continer">
+                    <div class="item-title">
+                        <div class="item-title-e"><p>another story</p></div>
+                        <div class="item-title-c"><p>調酒的另一種面向</p></div></div>
+                    <button class="custom-btn btn-pink item-btn-p">線上酒館</button>
+                <div class="item-img-box">
+                    <div class="item-img-overlay"></div>
+                    <img src="images/Brand3.jpg"class="item-img">
+                </div>
+                </div>
+            </li>
+            <li class="item-2">
+                <div class="item-2-num">04</div>
+                <div class="item-continer">
+                    <div class="item-title-2">
+                        <div class="item-title-e"><p>another story</p></div>
+                        <div class="item-title-c"><p>調酒的另一種面向</p></div></div>
+                    <button class="custom-btn btn-pink item-btn-p">線上酒館</button>
+                <div class="item-img-box">
+                    <div class="item-2-img-overlay"></div>
+                    <img src="images/Brand4.jpg"class="item-img">
+                </div>
+            </li>
+        </ul>
+        </div>
+    </section>
+
+    <section class="Home_Slogan">
+        <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
+        </div>
+        <!-- The SVG filter used to create the merging effect -->
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+                    <feColorMatrix in="SourceGraphic"
+                            type="matrix"
+                            values="1 0 0 0 0
+                                            0 1 0 0 0
+                                            0 0 1 0 0
+                                            0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+        <div class="slogan-map">
+            <div class="map-container">
+        <iframe src="https://my.atlistmaps.com/map/b68e9093-6d8d-40ab-8014-f29a97d578b3?share=true" allow="geolocation" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+        </div>
+        <button class="custom-btn btn-pink btn-position">門市據點</button>
+
+    </section>
+
+    <section class="Home_Menu">
+        <ul class="items2">
+            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>
+            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>            <li class="menu-cell">
+                <div class="menu-content">
+                    <div class="menu-heading">
+                        <div class="title-backcover font-R">
+                            <p>GUIDE</p>
+                        </div>
+                        <div class="info-backcover">
+                            <a class="anchor-backcover">
+                                <p class="info">夏日慶典</p>
+                                <p class="info-E">Natsu-Matsuri</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-date"><p class="date-backcover">UPDATE : 2022.10.09</p></div>
+                    <div class="menu-num"> <p class="num-p font-R">NUMBER</p><p class="num-p font-R">1</p></div>
+                </div>
+            </li>
+    </section>
+
+
+    <section class="Home_Shop">
+        <div class="Home_Shop-bk-f"></div>
+        <div class="Home_Shop-bk"></div>
+        <div class="shop-container">
+            <div class="shop-main">
+                <div class="shop-main-outline"></div>
+                <div class="shop-main-overlay"></div>
+                <div class="shop-main-bg"></div>
+            </div>
+            <button class="custom-btn btn-orange btn-position-shop">線上酒館</button>
+           <div class="shop-p"><a target="" href="#" class="p-style-shop" style="display:inline;">—千言萬語，一杯相知。—</a></div>
+        </div>
+    </section>
+
+<footer class="Footer_Main">
+    <div class="footer-container">
+    <div class="footer-links">
+        <a target="" href="#" class="footer-a">防疫措施公告</a>
+        <a target="" href="#" class="footer-a">聲明公告</a>
+        <a target="" href="#" class="footer-a">品牌故事</a>
+        <div class="footer-links-child"><a target="" href="#" class="footer-a">商品報告</a>
+            <a target="" href="#" class="footer-a">隱私權</a></div>
+        
+    </div>
+    <div class="footer-info">
+        <a target="" href="#" class="footer-a"><img src ="images/phone-call.svg" class="icon" style="padding-right:5px;">0800-000-000</a>
+        <a target="" href="#" class="footer-a"><img src ="images/envelope.svg" class="icon" style="padding-right:5px;">info@COLOURFULWORLD.com</a>
+        <div class="footer-social">
+        <a target="" href="#" class="footer-a"><img src ="images/facebook.svg" class="icon"></a>
+        <a target="" href="#" class="footer-a"><img src ="images/instagram.svg" class="icon"></a>
+        <a target="" href="#" class="footer-a"><img src ="images/line.svg" class="icon"></a>
+    </div>
+    </div>
+    </div>
+</footer>
+
+
+
+
+    <script>
+        // Created by Tiffany Rayside: https://codepen.io/tmrDevelops/pen/vOPZBv
+    
+    var c = document.getElementById('gradient');
+    var $ = c.getContext('2d');
+    
+    
+    var col = function(x, y, r, g, b) {
+      $.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
+      $.fillRect(x, y, 1,1);
+    }
+    var R = function(x, y, t) {
+      return( Math.floor(192 + 64*Math.cos( (x*x-y*y)/300 + t )) );
+    }
+    
+    var G = function(x, y, t) {
+      return( Math.floor(192 + 64*Math.sin( (x*x*Math.cos(t/4)+y*y*Math.sin(t/3))/300 ) ) );
+    }
+    
+    var B = function(x, y, t) {
+      return( Math.floor(192 + 64*Math.sin( 5*Math.sin(t/9) + ((x-100)*(x-100)+(y-100)*(y-100))/1100) ));
+    }
+    
+    var t = 0;
+    
+    var run = function() {
+      for(x=0;x<=35;x++) {
+        for(y=0;y<=35;y++) {
+          col(x, y, R(x,y,t), G(x,y,t), B(x,y,t));
+        }
+      }
+      t = t + 0.06;
+      window.requestAnimationFrame(run);
+    }
+    
+    run();
+    
+    
+    //items
+    
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    const slider = document.querySelector('.items');
+
+
+    
+    
+    const end = () => {
+        isDown = false;
+      slider.classList.remove('active');
+
+    }
+
+
+    
+    const start = (e) => {
+      isDown = true;
+      slider.classList.add('active');
+      startX = e.pageX || e.touches[0].pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;	
+    
+    }
+    
+    const move = (e) => {
+        if(!isDown) return;
+    
+      e.preventDefault();
+      const x = e.pageX || e.touches[0].pageX - slider.offsetLeft;
+      const dist = (x - startX);
+      slider.scrollLeft = scrollLeft - dist;
+    }
+    
+    (() => {
+        slider.addEventListener('mousedown', start);
+        slider.addEventListener('touchstart', start);
+  
+        slider.addEventListener('mousemove', move);
+        slider.addEventListener('touchmove', move);
+    
+        slider.addEventListener('mouseleave', end);
+        slider.addEventListener('mouseup', end);
+        slider.addEventListener('touchend', end);
+
+    })();
+    
+//
+
+    // let isDown2 = false;
+    // let startX2;
+    // let scrollLeft2;
+    // const slider2 = document.querySelector('.items2');
+
+    
+    
+    // const end2 = () => {
+    //     isDown2 = false;
+    //   slider2.classList.remove('active');
+    // }
+
+
+    
+    // const start2 = (e) => {
+    //   isDown2 = true;
+    //   slider2.classList.add('active');
+    //   startX2 = e.pageX || e.touches[0].pageX - slider2.offsetLeft;
+    //   scrollLeft2 = slider2.scrollLeft2;	
+    
+    // }
+    
+    // const move2 = (e) => {
+    //     if(!isDown2) return;
+    
+    //   e.preventDefault();
+    //   const x2 = e.pageX || e.touches[0].pageX - slider2.offsetLeft;
+    //   const dist2 = (x2 - startX2);
+    //   slider2.scrollLeft2 = scrollLeft2 - dist2;
+
+    // }
+    
+    // (() => {
+    //     slider2.addEventListener('mousedown', start);
+    //     slider2.addEventListener('touchstart', start);
+    
+    //     slider2.addEventListener('mousemove', move);
+    //     slider2.addEventListener('touchmove', move);
+    
+    //     slider2.addEventListener('mouseleave', end);
+    //     slider2.addEventListener('mouseup', end);
+    //     slider2.addEventListener('touchend', end);
+
+    // })();
+
+    //Location
+
+    const elts = {
+	text1: document.getElementById("text1"),
+	text2: document.getElementById("text2")
+};
+
+// The strings to morph between. You can change these to anything you want!
+const texts = [
+	"We are here.",
+	"Here we are.",
+];
+
+// Controls the speed of morphing.
+const morphTime = 1;
+const cooldownTime = 0.25;
+
+let textIndex = texts.length - 2;
+let time = new Date();
+let morph = 0;
+let cooldown = cooldownTime;
+
+elts.text1.textContent = texts[textIndex % texts.length];
+elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+
+function doMorph() {
+	morph -= cooldown;
+	cooldown = 0;
+	
+	let fraction = morph / morphTime;
+	
+	if (fraction > 1) {
+		cooldown = cooldownTime;
+		fraction = 1;
+	}
+	
+	setMorph(fraction);
+}
+
+// A lot of the magic happens here, this is what applies the blur filter to the text.
+function setMorph(fraction) {
+	// fraction = Math.cos(fraction * Math.PI) / -2 + .5;
+	
+	elts.text2.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
+	elts.text2.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
+	
+	fraction = 1 - fraction;
+	elts.text1.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
+	elts.text1.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
+	
+	elts.text1.textContent = texts[textIndex % texts.length];
+	elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+}
+
+function doCooldown() {
+	morph = 0;
+	
+	elts.text2.style.filter = "";
+	elts.text2.style.opacity = "100%";
+	
+	elts.text1.style.filter = "";
+	elts.text1.style.opacity = "0%";
+}
+
+// Animation loop, which is called every frame.
+function animate() {
+	requestAnimationFrame(animate);
+	
+	let newTime = new Date();
+	let shouldIncrementIndex = cooldown > 0;
+	let dt = (newTime - time) / 1500;
+	time = newTime;
+	
+	cooldown -= dt;
+	
+	if (cooldown <= 0) {
+		if (shouldIncrementIndex) {
+			textIndex++;
+		}
+		
+		doMorph();
+	} else {
+		doCooldown();
+	}
+}
+
+// Start the animation.
+animate();
+    </script>
+
+</body>
+
+</html>
+

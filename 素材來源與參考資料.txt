@@ -1,0 +1,11 @@
+參考網站 : https://www.kebuke.com/
+參考網站2 :https://www.freaksstore.com/freakmag/
+
+
+CodePen :
+1.漸層色 https://codepen.io/tmrDevelops/pen/vOPZBv
+2.圓形   https://codepen.io/danarbello/pen/NWaPOPR
+3.文字變化 https://codepen.io/uhwvjiqg/pen/gOKoYoy
+         
+
+圖片素材來源: https://pixabay.com/
